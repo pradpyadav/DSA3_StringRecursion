@@ -22,7 +22,7 @@ public class PrintSubsetsOfString {
     }
 
     static void printSubsetHelper(String inputString, int idx, String currenString) {
-        //Base condition
+        //Base condition to be fulfilled
         if (idx == inputString.length()) {
             System.out.println(currenString);
             return;
